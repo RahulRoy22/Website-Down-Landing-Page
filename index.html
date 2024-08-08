@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Currently Down</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #6a00ff, #bc65ff);
+        }
+
+        /* Container Styles */
+        .container {
+            display: flex;
+            align-items: center;
+            color: #fff;
+            max-width: 800px;
+            text-align: left;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Text Content Styles */
+        .text-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .text-content h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+            font-weight: 600;
+        }
+
+        .text-content p {
+            font-size: 1em;
+            margin: 10px 0;
+            max-width: 400px;
+            font-weight: 300;
+        }
+
+        .text-content button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #6a00ff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.2s ease;
+        }
+
+        .text-content button:hover {
+            background-color: #4c0099;
+        }
+
+        /* Image Content Styles */
+        .image-content {
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-content img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-content">
+            <h1>We're Currently Down</h1>
+            <p>We apologize for the inconvenience, but our website is currently experiencing issues. Our team is working hard to get everything back up and running as soon as possible. Please check back later.</p>
+            <button onclick="location.reload()">Try Again</button>
+        </div>
+        
+        <div class="image-content">
+            <img src="images/img2.jpg" alt="Website Currently Down">
+        </div>
+    </div>
+</body>
+
+</html>
